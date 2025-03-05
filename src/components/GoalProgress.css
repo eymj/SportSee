@@ -1,40 +1,42 @@
-.goal-progress { grid-area: 3 / 3 / 4 / 4;}
+.goal-progress {
+  grid-area: 3 / 3 / 4 / 4;
+}
 
 .goal-progress {
-    background-color: #FBFBFB;
-    border-radius: 5px;
-    padding: 24px;
-    display: grid;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  padding: 24px;
+  display: grid;
 }
 
 .goal-chart {
-    grid-area: 1 / 1 / 1 / 1;
+  grid-area: 1 / 1 / 1 / 1;
 }
 
 .goal-text {
-    grid-area: 1 / 1 / 1 / 1;
-    z-index:99;
-    justify-self: center;
-    align-self: center;
-    text-align:center;
+  grid-area: 1 / 1 / 1 / 1;
+  z-index: 99;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
 }
 
 .goal-value {
-    font-size: 26px;
-    font-weight: 700;
-    color: #282D30;
+  font-size: 26px;
+  font-weight: 700;
+  color: #282d30;
 }
 
 .goal-label {
-    color: #74798C;
-    font-size: 15px;
-    font-weight: 500;
-    width: 100px;
+  color: #74798c;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100px;
 }
 
 .goal-title {
-    grid-area: 1 / 1 / 1 / 1;
-    font-size: 15px;
-    font-weight: 500;
-    color: #282D30;
+  grid-area: 1 / 1 / 1 / 1;
+  font-size: 15px;
+  font-weight: 500;
+  color: #282d30;
 }

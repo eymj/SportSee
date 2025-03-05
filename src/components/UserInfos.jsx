@@ -7,7 +7,9 @@ function UserInfos() {
   if (!data && !error) {
     return (
       <div className="user-infos">
-        <div className="loading">Chargement des informations utilisateur...</div>
+        <div className="loading">
+          Chargement des informations utilisateur...
+        </div>
       </div>
     );
   }
@@ -24,7 +26,9 @@ function UserInfos() {
 
   return (
     <div className="user-infos">
-      <div className="greet">Bonjour <span className="red">{data.firstName}</span></div>
+      <div className="greet">
+        Bonjour <span className="red">{data.firstName}</span>
+      </div>
       <div className="greet-subtitle">
         Félicitation ! Vous avez explosé vos objectifs hier 👏
       </div>

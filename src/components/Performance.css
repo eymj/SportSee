@@ -1,9 +1,10 @@
-.performance { grid-area: 3 / 2 / 4 / 3; }
+.performance {
+  grid-area: 3 / 2 / 4 / 3;
+}
 
 .performance {
-    background-color: #282D30;
-    border-radius: 5px;
-    padding: 0px;
-    display: grid;
-    
+  background-color: #282d30;
+  border-radius: 5px;
+  padding: 0px;
+  display: grid;
 }

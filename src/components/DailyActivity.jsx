@@ -3,13 +3,11 @@ import useActivity from "../hooks/useActivity";
 import {
   BarChart,
   Bar,
-  Rectangle,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
   Legend,
-  Text,
   ResponsiveContainer,
 } from "recharts";
 
@@ -62,12 +60,11 @@ function DailyActivity() {
   const renderTooltip = (props) => {
     const { payload } = props;
 
-    
     const valueNameMap = {
       kilogram: "kg",
       calories: "kCal",
     };
-    
+
     return (
       <div className="activity-tooltip">
         <div className="tooltip-payload">

@@ -1,26 +1,26 @@
 header {
-    background-color: #020203;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    grid-area: 1 / 1 / 2 / 3;
-    box-shadow: 0px 4px 4px 0px #00000040;
+  background-color: #020203;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  grid-area: 1 / 1 / 2 / 3;
+  box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 90px;
-    width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 90px;
+  width: 1000px;
 }
 
 header img {
-    height: 60px;
-    margin: 0 30px;
+  height: 60px;
+  margin: 0 30px;
 }
 
 nav div {
-    color: white;
-    font-size: 24px;
-    line-height: 1;
+  color: white;
+  font-size: 24px;
+  line-height: 1;
 }

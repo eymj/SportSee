@@ -1,20 +1,22 @@
-.average-sessions { grid-area: 3 / 1 / 4 / 2; }
+.average-sessions {
+  grid-area: 3 / 1 / 4 / 2;
+}
 
 .average-sessions {
-    background-color: #FF0000;
-    border-radius: 5px;
-    display: grid;
+  background-color: #ff0000;
+  border-radius: 5px;
+  display: grid;
 }
 
 .sessions-chart {
-    grid-area: 1 / 1 / 1 / 1;
+  grid-area: 1 / 1 / 1 / 1;
 }
 
 .sessions-title {
-    grid-area: 1 / 1 / 1 / 1;
-    padding: 30px;
-    color: white;
-    font-weight: 500;
-    font-size: 15px;
-    max-width: 150px;
+  grid-area: 1 / 1 / 1 / 1;
+  padding: 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  max-width: 150px;
 }

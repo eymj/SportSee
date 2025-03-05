@@ -10,21 +10,25 @@ function useUserInfos() {
 
   const mock = mockUser;
 
-  const url = `http://localhost:3000/user/${userId}`
+  const url = `http://localhost:3000/user/${userId}`;
 
   async function getData() {
     try {
-      let d = testMode ? mock.userInfos : await fetch(url).then(res => res.json()).then(res => res.data.userInfos)
-      if (!d) throw 'No data'
-      return setData(d)
+      let d = testMode
+        ? mock.userInfos
+        : await fetch(url)
+            .then((res) => res.json())
+            .then((res) => res.data.userInfos);
+      if (!d) throw "No data";
+      return setData(d);
     } catch (error) {
       console.error("API Error:", error);
-      return setError(error)
+      return setError(error);
     }
   }
 
   useEffect(() => {
-    getData()
+    getData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

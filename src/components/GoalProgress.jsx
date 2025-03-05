@@ -1,17 +1,8 @@
 import "./GoalProgress.css";
 import useScore from "../hooks/useScore";
 import {
-  BarChart,
-  Bar,
-  Rectangle,
-  XAxis,
-  YAxis,
-  CartesianGrid,
   RadialBarChart,
   RadialBar,
-  Tooltip,
-  Legend,
-  Text,
   ResponsiveContainer,
 } from "recharts";
 
@@ -66,9 +57,7 @@ function GoalProgress() {
         <div className="goal-value">{Object.values({ data })[0] * 100}%</div>
         <div className="goal-label">de votre objectif</div>
       </div>
-      <div className="goal-title">
-        Score
-      </div>
+      <div className="goal-title">Score</div>
     </div>
   );
 }

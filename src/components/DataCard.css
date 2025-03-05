@@ -1,30 +1,30 @@
 .card {
-    background-color: #FBFBFB;
-    border-radius: 5px;
-    padding: 32px;
-    display: flex;
-    gap: 24px;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  padding: 32px;
+  display: flex;
+  gap: 24px;
 }
 
 .card img {
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
 .card-data {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .data-value {
-    font-weight: 600;
-    font-size: 20px;
-    color: #282D30;
+  font-weight: 600;
+  font-size: 20px;
+  color: #282d30;
 }
 
 .data-label {
-    font-weight: 500;
-    font-size: 14px;
-    color: #74798C;
+  font-weight: 500;
+  font-size: 14px;
+  color: #74798c;
 }

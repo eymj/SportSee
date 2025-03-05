@@ -1,45 +1,47 @@
-.activity { grid-area: 2 / 1 / 3 / 4; }
+.activity {
+  grid-area: 2 / 1 / 3 / 4;
+}
 
 .activity {
-    background-color: #FBFBFB;
-    border-radius: 5px;
-    padding: 24px;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  padding: 24px;
 }
 
 .activity-legend {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .activity-legend h2 {
-    color: #20253A;
-    margin: 0;
-    padding: 0;
-    font-weight: 500;
-    font-size: 15px;
+  color: #20253a;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .legend-payload {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    color: #74798C;
-    font-weight: 500;
-    font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  color: #74798c;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .legend-entry .dot::before {
-    content: '●';
-    display: inline-block;
-    margin-right: 8px;
-    margin-bottom: 4px;
+  content: "●";
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 4px;
 }
 
 .tooltip-entry {
-    background-color: #E60000;
-    color: white;
-    text-align: center;
-    padding: 6px;
-    font-size:12px;
-    font-weight: 500;
+  background-color: #e60000;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  font-size: 12px;
+  font-weight: 500;
 }
