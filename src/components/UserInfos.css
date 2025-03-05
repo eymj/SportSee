@@ -1,0 +1,14 @@
+.user-infos { grid-area: 1 / 1 / 2 / 5; }
+
+.greet {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.red {
+    color: #FF0101;
+}
+
+.greet-subtitle {
+    margin-top: 20px;
+}

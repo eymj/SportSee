@@ -1,0 +1,24 @@
+.sidebar {
+    grid-area: 2 / 1 / 6 / 2;
+    background-color: #020203;
+    height: 100%;
+}
+
+.activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: calc(100% - 90px);
+    justify-content: center;
+}
+
+.copyright {
+    color: white;
+    transform: rotate(270deg);
+    width: 185px;
+    position: fixed;
+    bottom: 130px;
+    left: -50px;
+    font-size: 12px;
+}

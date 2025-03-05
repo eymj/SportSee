@@ -1,0 +1,6 @@
+#root {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  grid-template-rows: 90px repeat(4, 1fr); 
+}
+
